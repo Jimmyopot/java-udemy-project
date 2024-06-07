@@ -16,6 +16,7 @@ public class ArrayListChallenge {
             printActions();
             switch (Integer.parseInt(scanner.nextLine())) {
                 case 1 -> addItems(groceries);
+                case 2 -> removeItems(groceries);
                 default -> flag = false;
             }
             groceries.sort(Comparator.naturalOrder());
@@ -25,12 +26,12 @@ public class ArrayListChallenge {
 
     private static void printActions() {
         String textBlock = """
-                Available actions:
+            Available actions:
                 0 - to shutdown
                 1 - to add item(s) to list (comma delimited list)
                 2 - to remove any items (comma delimited list)
                 Enter a number for which action you want to do:
-                """;
+            """;
         System.out.println(textBlock + " ");
     }
 
@@ -44,6 +45,16 @@ public class ArrayListChallenge {
             if (groceries.indexOf(trimmed) < 0) {
                 groceries.add(trimmed);
             }
+        }
+    }
+
+    private static void removeItems(ArrayList<String> groceries) {
+        System.out.println("Remove item(s) [separate items by comma]:");
+        String[] items = scanner.nextLine().split(",");
+
+        for (String i : items) {
+            String trimmed = i.trim();
+            groceries.remove(trimmed);
         }
     }
 }
