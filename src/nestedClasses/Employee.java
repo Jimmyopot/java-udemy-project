@@ -1,4 +1,4 @@
-package NestedClasses;
+package nestedClasses;
 
 import java.util.Comparator;
 
