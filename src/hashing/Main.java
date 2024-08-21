@@ -25,6 +25,9 @@ public class Main {
             - List allows duplicate elements, whereas Set does not.
             - Set ensures uniqueness by rejecting duplicates.
             - Set does not maintain any specific order. The order of elements in a Set may change over time.
+
+            - Operations (add, remove, contains, size)
+            - Big O - O(1)
         */
         Set<String> mySet = new HashSet<>(hellos);
         System.out.println("mySet = " + mySet);
