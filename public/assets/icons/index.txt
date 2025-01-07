@@ -1,0 +1,4 @@
+Directory Contents: 
+C:\Users\Hp\javaLearn\UdemyTimBuchalka\public\assets\icons
+C:\Users\Hp\javaLearn\UdemyTimBuchalka\public\assets\icons\index.txt
+Generated: 2024-10-16T08:05:54.963251500

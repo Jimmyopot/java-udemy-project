@@ -1,0 +1,10 @@
+Directory Contents: 
+C:\Users\Hp\javaLearn\UdemyTimBuchalka\public
+C:\Users\Hp\javaLearn\UdemyTimBuchalka\public\assets
+C:\Users\Hp\javaLearn\UdemyTimBuchalka\public\assets\icons
+C:\Users\Hp\javaLearn\UdemyTimBuchalka\public\assets\icons\index.txt
+C:\Users\Hp\javaLearn\UdemyTimBuchalka\public\assets\index.txt
+C:\Users\Hp\javaLearn\UdemyTimBuchalka\public\assets\indexCopy.txt
+C:\Users\Hp\javaLearn\UdemyTimBuchalka\public\index.txt
+C:\Users\Hp\javaLearn\UdemyTimBuchalka\public\indexCopy.txt
+Generated: 2024-10-16T08:05:54.954505
